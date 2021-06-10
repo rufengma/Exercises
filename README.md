@@ -1,3 +1,3 @@
 # Exercises
 
-Exercise 1. June 10th 2021
+Exercise 1-Folder "Demo". June 10th 2021
