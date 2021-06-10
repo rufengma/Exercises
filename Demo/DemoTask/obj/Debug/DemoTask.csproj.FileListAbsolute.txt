@@ -1,0 +1,6 @@
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/obj/Debug/DemoTask.csprojAssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/obj/Debug/DemoTask.csproj.CoreCompileInputs.cache
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/bin/Debug/DemoTask.exe
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/bin/Debug/DemoTask.pdb
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/obj/Debug/DemoTask.exe
+/Users/rufengma/Documents/Job/Antra/HW1/project/Demo/DemoTask/obj/Debug/DemoTask.pdb
