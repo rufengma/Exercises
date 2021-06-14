@@ -1,0 +1,6 @@
+/Users/rufengma/Projects/Lab3/Exercise2/bin/Debug/Exercise2.exe
+/Users/rufengma/Projects/Lab3/Exercise2/bin/Debug/Exercise2.pdb
+/Users/rufengma/Projects/Lab3/Exercise2/obj/anycpu/Debug/Exercise2.csprojAssemblyReference.cache
+/Users/rufengma/Projects/Lab3/Exercise2/obj/anycpu/Debug/Exercise2.csproj.CoreCompileInputs.cache
+/Users/rufengma/Projects/Lab3/Exercise2/obj/anycpu/Debug/Exercise2.exe
+/Users/rufengma/Projects/Lab3/Exercise2/obj/anycpu/Debug/Exercise2.pdb
