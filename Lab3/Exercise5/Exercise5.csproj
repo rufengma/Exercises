@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{9A7A86E9-8471-4FE0-87B9-55621A948F52}</ProjectGuid>
+    <ProjectGuid>{D9B4A693-69AA-4421-B5C0-AD0489EDE498}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercise4</RootNamespace>
-    <AssemblyName>Exercise4</AssemblyName>
+    <RootNamespace>Exercise5</RootNamespace>
+    <AssemblyName>Exercise5</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
@@ -32,11 +32,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person.cs" />
+    <Compile Include="ComplexNumber.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Teacher.cs" />
-    <Compile Include="TestE4.cs" />
+    <Compile Include="ComplexTest.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
