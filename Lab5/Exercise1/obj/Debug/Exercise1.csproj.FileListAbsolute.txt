@@ -1,0 +1,6 @@
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/bin/Debug/Exercise1.exe
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/bin/Debug/Exercise1.pdb
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/obj/Debug/Exercise1.csprojAssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/obj/Debug/Exercise1.csproj.CoreCompileInputs.cache
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/obj/Debug/Exercise1.exe
+/Users/rufengma/Documents/Job/Antra/HW5/Lab5/Exercise1/obj/Debug/Exercise1.pdb
