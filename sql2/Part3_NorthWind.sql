@@ -94,8 +94,14 @@ on o2.OrderID=o.OrderID
 group by o2.CustomerID
 having sum(o.Quantity)>100
 
-*q23*/
-select o.ShipAddress,s1.Address
+*q23*
+select s1.CompanyName as "Supplier Company Name",s2.CompanyName as "Shipper company name"
 from Orders o 
-left join Suppliers s1 
-on o.ShipAddress= s1.Address
+left join Shippers s2
+on o.ShipVia= s2.ShipperID
+left join Suppliers s1
+on s1.City=o.ShipCity
+where s1.CompanyName!='null'
+
+*q24*/
+
