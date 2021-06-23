@@ -1,3 +1,5 @@
+--2.	Design a database for a lending company which manages lending among people (p2p lending)
+
 create table lenders(LenderID int primary key, LenderName varchar (40), 
 AvailableMoney decimal (10,2))
 
