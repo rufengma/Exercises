@@ -1,3 +1,4 @@
+--3.	Design a database to maintain the menu of a restaurant.
 create table courses(CourseName varchar(40) primary key, CourseDescription varchar (500), photo varbinary(max),
 finalPrice decimal(5,2))
 
