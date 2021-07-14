@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y3IuhDCo2W/iyZgigeXM2POdtx8o/mLJ+fUjwG43yYrdeswEoArEKeC7vZ5WuiUdIWHwMEtlGMCTsdYlJlfvCQ==",
+  "success": true,
+  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "/Users/rufengma/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
