@@ -1,0 +1,12 @@
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/bin/Debug/netstandard2.1/Infrastructure.deps.json
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/bin/Debug/netstandard2.1/Infrastructure.dll
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/bin/Debug/netstandard2.1/Infrastructure.pdb
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/bin/Debug/netstandard2.1/ApplicationCore.dll
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/bin/Debug/netstandard2.1/ApplicationCore.pdb
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.csproj.AssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.AssemblyInfoInputs.cache
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.AssemblyInfo.cs
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.csproj.CoreCompileInputs.cache
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.csproj.CopyComplete
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.dll
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/Debug/netstandard2.1/Infrastructure.pdb

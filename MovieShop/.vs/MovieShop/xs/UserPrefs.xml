@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ApplicationCore/Entities/User.cs">
+    <Files>
+      <File FileName="Infrastructure/Data/MovieShopDbContext.cs" Line="60" Column="83" IsPinned="True" />
+      <File FileName="ApplicationCore/Entities/User.cs" Line="22" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieShop" expanded="True">
+            <Node name="ApplicationCore" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="User.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Data" expanded="True" />
+            </Node>
+            <Node name="MovieShopMVC" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieShopMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
