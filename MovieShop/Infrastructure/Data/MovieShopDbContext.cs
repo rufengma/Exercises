@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using ApplicationCore.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
@@ -22,13 +23,13 @@ namespace Infrastructure.Data
         public DbSet<Trailer> Trailers { get; set; }
 
         public DbSet<Cast> Casts { get; set; }
+        public DbSet<MovieCast> MovieCasts { get; set; }
+        public DbSet<MovieCrew> MovieCrews { get; set; }
         public DbSet<Crew> Crews { get; set; }
         public DbSet<Favorite> Favorites { get; set; }
         public DbSet<Purchase> Purchases { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Role> Roles { get; set; }
-
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -37,13 +38,46 @@ namespace Infrastructure.Data
             // output is void. input is entityTypeBuilder<movie>, output is void
             modelBuilder.Entity<Trailer>(ConfigureTrailer);
             modelBuilder.Entity<Genre>(ConfigureGenre);
+            modelBuilder.Entity<Movie>().HasMany(m => m.Genres).WithMany(g => g.Movies).UsingEntity<Dictionary<string, object>>
+                ("MovieGenre",
+                m => m.HasOne<Genre>().WithMany().HasForeignKey("GenreId"),
+                g => g.HasOne<Movie>().WithMany().HasForeignKey("MovieId"));
+
+            modelBuilder.Entity<User>(ConfigureUser);
+            modelBuilder.Entity<User>().HasMany(u => u.Roles).WithMany(r => r.Users).UsingEntity<Dictionary<string, object>>
+                ("UserRole",
+                u => u.HasOne<Role>().WithMany().HasForeignKey("RoleId"),
+                r => r.HasOne<User>().WithMany().HasForeignKey("UserId"));
+
+            modelBuilder.Entity<MovieCast>(ConfigureMovieCast);
+            modelBuilder.Entity<MovieCrew>(ConfigureMovieCrew);
             modelBuilder.Entity<Cast>(ConfigureCast);
             modelBuilder.Entity<Crew>(ConfigureCrew);
             modelBuilder.Entity<Favorite>(ConfigureFavorite);
             modelBuilder.Entity<Purchase>(ConfigurePurchase);
             modelBuilder.Entity<Review>(ConfigureReview);
             modelBuilder.Entity<Role>(ConfigureRole);
-            modelBuilder.Entity<User>(ConfigureUser);
+            
+        }
+
+        private void ConfigureMovieCrew(EntityTypeBuilder<MovieCrew> builder)
+        {
+            builder.ToTable("MovieCrew");
+            builder.HasKey(mc => new { mc.CrewId, mc.MovieId, mc.Department,mc.Job });
+            builder.HasOne(mc => mc.Movie).WithMany(mc => mc.MovieCrews).HasForeignKey(mc => mc.MovieId);
+            builder.HasOne(mc => mc.Crew).WithMany(mc => mc.MovieCrews).HasForeignKey(mc => mc.CrewId);
+            builder.Property(mc => mc.Department).HasMaxLength(128);
+            builder.Property(mc => mc.Job).HasMaxLength(128);
+        }
+
+
+        private void ConfigureMovieCast(EntityTypeBuilder<MovieCast> builder)
+        {
+            builder.ToTable("MovieCast");
+            builder.HasKey(mc => new { mc.CastId, mc.MovieId, mc.Character });
+            builder.HasOne(mc => mc.Movie).WithMany(mc => mc.MovieCasts).HasForeignKey(mc => mc.MovieId);
+            builder.HasOne(mc => mc.Cast).WithMany(mc => mc.MovieCasts).HasForeignKey(mc => mc.CastId);
+            builder.Property(mc => mc.Character).HasMaxLength(450);
         }
 
         private void ConfigureUser(EntityTypeBuilder<User> builder)
@@ -68,8 +102,9 @@ namespace Infrastructure.Data
 
         private void ConfigureReview(EntityTypeBuilder<Review> builder)
         {
-            builder.HasKey("MovieId");
-            builder.Property(r => r.UserId).IsRequired();
+            builder.HasKey(r => new { r.UserId,r.MovieId});
+            builder.HasOne(r => r.Movie).WithMany(r => r.Reviews).HasForeignKey(r => r.MovieId);
+            builder.HasOne(r => r.User).WithMany(r => r.Reviews).HasForeignKey(r => r.UserId);
             builder.Property(r => r.Rating).HasPrecision(3, 2).IsRequired();
         }
 
@@ -77,19 +112,18 @@ namespace Infrastructure.Data
         {
             builder.ToTable("Favorite");
             builder.HasKey("Id");
-            builder.Property(f => f.MovieId).IsRequired();
-            builder.Property(f => f.UserId).IsRequired();
+            builder.HasOne(f => f.Movie).WithMany(f => f.Favorites).HasForeignKey(f=>f.MovieId);
+            builder.HasOne(f => f.User).WithMany(f => f.Favorites).HasForeignKey(f => f.UserId);
         }
 
         private void ConfigurePurchase(EntityTypeBuilder<Purchase> builder)
         {
             builder.ToTable("Purchase");
             builder.HasKey("Id");
-            builder.Property(p => p.UserId).IsRequired();
-            //builder.Property(p => p.PurchaseNumber);//Here is a problem. Uniqueidentifier???
-            builder.Property(p => p.TotalPrice).HasPrecision(18,2).IsRequired();
+            builder.HasOne(p => p.Movie).WithMany(p => p.Purchases).HasForeignKey(p => p.MovieId);
+            builder.HasOne(p => p.User).WithMany(p => p.Purchases).HasForeignKey(p => p.UserId);
+            builder.Property(p => p.TotalPrice).HasPrecision(18,2).HasDefaultValue(9.9m);
             builder.Property(p => p.PurchaseDateTime).HasColumnType("datetime2");
-            builder.Property(p => p.MovieId).IsRequired();
         }
 
         private void ConfigureCrew(EntityTypeBuilder<Crew> builder)
