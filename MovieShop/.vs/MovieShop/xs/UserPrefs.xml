@@ -1,27 +1,23 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Data/MovieShopDbContext.cs">
-    <Files>
-      <File FileName="Infrastructure/Data/MovieShopDbContext.cs" Line="33" Column="1" IsPinned="True" />
-      <File FileName="ApplicationCore/Entities/Genre.cs" Line="1" Column="1" />
-      <File FileName="ApplicationCore/Entities/Movie.cs" Line="42" Column="9" />
-      <File FileName="ApplicationCore/Entities/User.cs" Line="26" Column="9" />
-      <File FileName="ApplicationCore/Entities/Role.cs" Line="12" Column="53" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
             <Node name="ApplicationCore" expanded="True">
-              <Node name="Entities" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="RepositoryInterfaces" expanded="True" />
+              <Node name="ServiceInterfaces" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="MovieShopDbContext.cs" selected="True" />
-              </Node>
-              <Node name="Migrations" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
-            <Node name="MovieShopMVC" expanded="True" />
+            <Node name="MovieShopMVC" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

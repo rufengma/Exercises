@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using ApplicationCore.Models;
 
 namespace ApplicationCore.ServiceInterfaces
@@ -8,6 +9,6 @@ namespace ApplicationCore.ServiceInterfaces
     {
         //which one defines your service methods.
 
-        List<MovieCardResponseModel> GetTopRevenueMovies();
+        Task<List<MovieCardResponseModel>> GetTopRevenueMovies();
     }
 }

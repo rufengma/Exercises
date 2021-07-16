@@ -5852,7 +5852,7 @@
       "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rufengma/.nuget/NuGet/NuGet.Config"
+        "/Users/rufengma/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
