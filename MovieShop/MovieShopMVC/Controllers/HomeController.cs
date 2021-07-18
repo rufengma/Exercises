@@ -26,6 +26,8 @@ namespace MovieShopMVC.Controllers
         }
 
         public async Task<IActionResult> Index()
+
+  
         {
             var movies =await _movieService.GetTopRevenueMovies();
             var myType = movies.GetType();
@@ -37,7 +39,7 @@ namespace MovieShopMVC.Controllers
             ViewBag.MoviesCount = movies.Count();
             return View(movies);
         }
-
+        
         
 
         public IActionResult Privacy()

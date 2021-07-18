@@ -14,7 +14,7 @@
         "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rufengma/.config/NuGet/NuGet.Config"
+          "/Users/rufengma/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -72,7 +72,7 @@
         "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/rufengma/.config/NuGet/NuGet.Config"
+          "/Users/rufengma/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"

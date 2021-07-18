@@ -21,6 +21,7 @@ namespace ApplicationCore.RepositoryInterfaces
         Task<T> UpdateAsync(T entity);
         Task<T> DeleteAsync(T entity);
         Task<int> GetCountAsync(Expression<Func<T, bool>> filter = null);
+        Task<bool> GetExistsAsync(Expression<Func<T, bool>> filter = null);
 
     }
 }
