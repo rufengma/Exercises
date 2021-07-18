@@ -35,5 +35,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Movies\" />
+    <Folder Include="wwwroot\styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\styles\" />
   </ItemGroup>
 </Project>
