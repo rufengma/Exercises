@@ -44,8 +44,8 @@ namespace Infrastructure.Data
                 g => g.HasOne<Movie>().WithMany().HasForeignKey("MovieId"));
 
             modelBuilder.Entity<User>(ConfigureUser);
-            modelBuilder.Entity<User>().HasMany(u => u.Roles).WithMany(r => r.Users).UsingEntity<Dictionary<string, object>>
-                ("UserRole",
+            modelBuilder.Entity<User>().HasMany(u => u.Roles).WithMany(r => r.Users)
+                .UsingEntity<Dictionary<string, object>>("UserRole",
                 u => u.HasOne<Role>().WithMany().HasForeignKey("RoleId"),
                 r => r.HasOne<User>().WithMany().HasForeignKey("UserId"));
 
@@ -82,16 +82,17 @@ namespace Infrastructure.Data
 
         private void ConfigureUser(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey("Id");
+            builder.ToTable("User");
+            builder.HasKey(u => u.Id);
+            builder.HasIndex(u => u.Email).IsUnique();
+            builder.Property(u => u.Email).HasMaxLength(256);
             builder.Property(u => u.FirstName).HasMaxLength(128);
             builder.Property(u => u.LastName).HasMaxLength(128);
-            builder.Property(u => u.DateOfBirth).HasColumnType("datetime2");
-            builder.Property(u => u.Email).HasMaxLength(256);
             builder.Property(u => u.HashedPassword).HasMaxLength(1024);
-            builder.Property(u => u.Salt).HasMaxLength(1024);
             builder.Property(u => u.PhoneNumber).HasMaxLength(16);
-            builder.Property(u => u.LockoutEndDate).HasColumnType("datetime2");
-            builder.Property(u => u.LastLoginDateTime).HasColumnType("datetime2");
+            builder.Property(u => u.Salt).HasMaxLength(1024);
+            builder.Property(u => u.ProfilePictureUrl).HasMaxLength(4096);
+            builder.Property(u => u.IsLocked).HasDefaultValue(false);
         }
 
         private void ConfigureRole(EntityTypeBuilder<Role> builder)
@@ -102,10 +103,11 @@ namespace Infrastructure.Data
 
         private void ConfigureReview(EntityTypeBuilder<Review> builder)
         {
-            builder.HasKey(r => new { r.UserId,r.MovieId});
-            builder.HasOne(r => r.Movie).WithMany(r => r.Reviews).HasForeignKey(r => r.MovieId);
-            builder.HasOne(r => r.User).WithMany(r => r.Reviews).HasForeignKey(r => r.UserId);
-            builder.Property(r => r.Rating).HasPrecision(3, 2).IsRequired();
+            builder.ToTable("Review");
+            builder.HasKey(r => new { r.MovieId, r.UserId });
+            builder.Property(r => r.ReviewText).HasMaxLength(20000);
+            builder.Property(r => r.Rating).HasColumnType("decimal(3, 2)");
+            builder.Property(r => r.CreatedDate).HasDefaultValueSql("getdate()");
         }
 
         private void ConfigureFavorite(EntityTypeBuilder<Favorite> builder)

@@ -1,22 +1,33 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Program.cs">
+    <Files>
+      <File FileName="ApplicationCore/Entities/Movie.cs" Line="37" Column="1" IsPinned="True" />
+      <File FileName="MovieShopMVC/Controllers/MoviesController.cs" Line="23" Column="32" />
+      <File FileName="ApplicationCore/Entities/Review.cs" />
+      <File FileName="Infrastructure/Data/MovieShopDbContext.cs" Line="50" Column="75" />
+      <File FileName="ApplicationCore/Entities/User.cs" Line="21" Column="44" />
+      <File FileName="MovieShopMVC/Views/Shared/_MovieCard.cshtml" Line="1" Column="1" />
+      <File FileName="MovieShopMVC/Controllers/HomeController.cs" Line="41" Column="10" />
+      <File FileName="MovieShopMVC/Views/Home/Index.cshtml" Line="16" Column="63" />
+      <File FileName="MovieShopMVC/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Infrastructure/Repositories/MovieRepository.cs" Line="1" Column="1" />
+      <File FileName="ApplicationCore/Models/MovieDetailsResponseModel.cs" Line="24" Column="53" />
+      <File FileName="ApplicationCore/Models/MovieCardResponseModel.cs" Line="13" Column="2" />
+      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="2" Column="1" />
+      <File FileName="MovieShopMVC/Program.cs" Line="27" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
-            <Node name="ApplicationCore" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="RepositoryInterfaces" expanded="True" />
-              <Node name="ServiceInterfaces" expanded="True" />
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
             <Node name="MovieShopMVC" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Movies" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

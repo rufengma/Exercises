@@ -10,5 +10,6 @@ namespace ApplicationCore.ServiceInterfaces
         //which one defines your service methods.
 
         Task<List<MovieCardResponseModel>> GetTopRevenueMovies();
+        Task<MovieDetailsResponseModel> GetMovieDetails(int id);
     }
 }
