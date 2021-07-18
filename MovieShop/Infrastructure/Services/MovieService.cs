@@ -19,11 +19,24 @@ namespace Infrastructure.Services
         public async Task<MovieDetailsResponseModel> GetMovieDetails(int id)
         {
             var movie = await _movieRepository.GetByIdAsync(id);
+
             var movieDetails = new MovieDetailsResponseModel()
             {
                 Id = movie.Id,
+                PosterUrl = movie.PosterUrl,
+                ReleaseDate = movie.ReleaseDate,
                 Title = movie.Title,
-                Budget = movie.Budget.GetValueOrDefault()
+                Overview = movie.Overview,
+                Tagline = movie.Tagline,
+                Budget = movie.Budget,
+                Revenue = movie.Revenue,
+                ImdbUrl = movie.ImdbUrl,
+                TmdbUrl = movie.TmdbUrl,
+                BackdropUrl = movie.BackdropUrl,
+                RunTime = movie.RunTime,
+                Price = movie.Price,
+                Rating = movie.Rating
+
             };
             movieDetails.Casts = new List<CastResponseModel>();
             foreach (var cast in movie.MovieCasts)
@@ -46,6 +59,7 @@ namespace Infrastructure.Services
                         Name = genre.Name
                     });
             }
+
             return movieDetails;
         }
 
@@ -65,6 +79,8 @@ namespace Infrastructure.Services
             }
             return movieCards;
         }
+
+
     }
 }
 

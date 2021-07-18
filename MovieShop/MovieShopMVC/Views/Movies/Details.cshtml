@@ -1,1 +1,89 @@
 ﻿
+@model ApplicationCore.Models.MovieDetailsResponseModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="container">
+
+
+    <div class="row bg-color-1 " >
+        <div class="col-3">
+        <img class="detail-poster" src="@Model.PosterUrl" alt="@Model.Title">
+        </div>
+        <div class="col-6">
+            <h3 style="color:white">
+                @Model.Title
+            </h3>
+            <div>
+
+                @foreach (var genre in Model.Genres)
+                {
+                    <span class="badge badge-pill badge-secondary">@genre.Name</span>
+                }
+                <br />
+                <span class="badge badge-pill badge-warning">@Model.Rating</span>
+                <br />
+                <div style="color:white">
+                    @Model.Overview
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="third-column">
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    <i class="fas fa-pen-square size:2x">REVIEW</i>
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    <i class="far fa-play-circle size:2x">TRAILER</i>
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    BUY 9.90
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    WATCH MOVIE
+                </a>
+                <p></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <h5>MOVIE FACTS</h5>
+            <br />
+            <i class="fas fa-calendar-alt size:2x">Release Date: </i><span class="badge badge-dark">@Model.ReleaseDate</span>
+            <br />
+            <i class="fas fa-hourglass-end size:2x">Run Time:</i><span class="badge badge-dark">@Model.RunTime m</span>
+            <br />
+            <i class="fas fa-money-bill size:2x">Box Office</i><span class="badge badge-dark dollars">$ @Model.Revenue</span>
+            <br />
+            <i class="fas fa-dollar-sign size:2x">Budget</i><span class="badge badge-dark dollars">$ @Model.Budget</span>
+            <br />
+        </div>
+        <div class="col-8">
+            <h5>CAST</h5>
+            <table class="table">
+                <tbody>
+                    @foreach (var cast in Model.Casts)
+                    {
+                        <tr>
+                            <td>
+                                <img src="@cast.ProfilePath"
+                                     class="cast-small-img rounded-circle"
+                                     alt="@cast.Name">
+                            </td>
+                            <td> @cast.Name </td>
+                            <td> @cast.Character</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

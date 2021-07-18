@@ -74,5 +74,4 @@
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/MovieShopMVC.pdb
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/MovieShopMVC.genruntimeconfig.cache
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
-/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Movies/Index.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Movies/Details.cshtml.g.cs
