@@ -1,0 +1,15 @@
+﻿@using ApplicationCore.ServiceInterfaces
+@inject IGenreService _genreService
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        GENRES
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        @foreach (var genre in await _genreService.GetAllGenres())
+        {
+            <a class="dropdown-item" asp-controller="Movies" asp-action="genre"  asp-route-id="@genre.Id"> @genre.Name</a>
+        }
+    </div>
+</div>
+

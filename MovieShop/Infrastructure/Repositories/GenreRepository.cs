@@ -11,5 +11,6 @@ namespace Infrastructure.Repositories
         public GenreRepository(MovieShopDbContext dbContext) : base(dbContext)
         {
         }
+
     }
 }

@@ -76,3 +76,4 @@
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Shared/_MovieCard.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Movies/Details.cshtml.g.cs
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Cast/CastDetail.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Shared/_GenreView.cshtml.g.cs
