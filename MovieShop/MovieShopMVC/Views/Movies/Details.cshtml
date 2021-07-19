@@ -1,5 +1,4 @@
-﻿
-@model ApplicationCore.Models.MovieDetailsResponseModel
+﻿@model ApplicationCore.Models.MovieDetailsResponseModel
 
 @{
     ViewData["Title"] = "Details";
@@ -74,9 +73,12 @@
                     {
                         <tr>
                             <td>
-                                <img src="@cast.ProfilePath"
-                                     class="cast-small-img rounded-circle"
-                                     alt="@cast.Name">
+                                <a asp-controller="Cast" asp-action="CastDetail" asp-route-id="@cast.Id">
+                                    <img src="@cast.ProfilePath"
+                                         class="cast-small-img rounded-circle"
+                                         alt="@cast.Name">
+                                </a>
+
                             </td>
                             <td> @cast.Name </td>
                             <td> @cast.Character</td>
