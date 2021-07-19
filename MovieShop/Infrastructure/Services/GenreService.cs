@@ -29,5 +29,22 @@ namespace Infrastructure.Services
             }
             return genresModel;
         }
+
+        public async Task<List<MovieCardResponseModel>> GetMoviesInGenre(int GenreId)
+        {
+            var movies = await _genreRepository.Get20MoviesInGenre(GenreId);
+            var movieCards = new List<MovieCardResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieCards.Add(new MovieCardResponseModel
+                {
+                    Id = movie.Id,
+                    Budget = movie.Budget.GetValueOrDefault(),
+                    Title = movie.Title,
+                    PosterUrl = movie.PosterUrl
+                });
+            }
+            return movieCards;
+        }
     }
 }

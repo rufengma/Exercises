@@ -39,6 +39,7 @@ namespace MovieShopMVC.Controllers
             ViewBag.MoviesCount = movies.Count();
             return View(movies);
         }
+
         
         
 
