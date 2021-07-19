@@ -15,6 +15,7 @@ namespace MovieShopMVC.Controllers
         public CastController(ICastService castService) {
             _castService = castService;
         }
+        //This is inject
         // GET: /<controller>/
         public async Task<IActionResult> CastDetail(int id)
         {

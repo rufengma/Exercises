@@ -1,18 +1,34 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Movies/Details.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrastructure/Services/MovieService.cs">
     <Files>
-      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="70" Column="24" />
+      <File FileName="MovieShopMVC/Views/Shared/_Layout.cshtml" Line="38" Column="39" />
+      <File FileName="MovieShopMVC/Views/Shared/_GenreView.cshtml" Line="4" Column="1" />
+      <File FileName="Infrastructure/Repositories/CastRepository.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Repositories/GenreRepository.cs" Line="12" Column="10" />
+      <File FileName="Infrastructure/Repositories/MovieRepository.cs" Line="17" Column="1" />
+      <File FileName="Infrastructure/Services/GenreService.cs" Line="30" Column="32" />
+      <File FileName="Infrastructure/Services/MovieService.cs" Line="71" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
+            <Node name="ApplicationCore" expanded="True">
+              <Node name="Entities" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="RepositoryInterfaces" expanded="True" />
+              <Node name="ServiceInterfaces" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="MovieService.cs" selected="True" />
+              </Node>
+            </Node>
             <Node name="MovieShopMVC" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Cast" expanded="True" />
-                <Node name="Movies" expanded="True">
-                  <Node name="Details.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
