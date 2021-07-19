@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Movies/Details.cshtml">
     <Files>
-      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="72" Column="22" />
+      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="70" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
