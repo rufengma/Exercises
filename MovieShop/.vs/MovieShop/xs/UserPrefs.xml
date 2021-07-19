@@ -1,25 +1,18 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Movies/Details.cshtml">
+    <Files>
+      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="70" Column="24" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
-            <Node name="ApplicationCore" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Services" expanded="True" />
-            </Node>
             <Node name="MovieShopMVC" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Cast" expanded="True">
-                  <Node name="CastDetail.cshtml" selected="True" />
+                <Node name="Cast" expanded="True" />
+                <Node name="Movies" expanded="True">
+                  <Node name="Details.cshtml" selected="True" />
                 </Node>
-                <Node name="Movies" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="styles" expanded="True" />
               </Node>
             </Node>
           </Node>
