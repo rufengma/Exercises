@@ -1,32 +1,22 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Movies/Details.cshtml">
-    <Files>
-      <File FileName="ApplicationCore/Entities/Movie.cs" Line="29" Column="11" IsPinned="True" />
-      <File FileName="MovieShopMVC/Views/Home/Index.cshtml" Line="11" Column="26" />
-      <File FileName="Infrastructure/Services/MovieService.cs" Line="25" Column="31" />
-      <File FileName="MovieShopMVC/Views/Movies/Details.cshtml" Line="43" Column="24" />
-      <File FileName="MovieShopMVC/wwwroot/styles/basicCSS.css" Line="17" Column="22" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
             <Node name="ApplicationCore" expanded="True">
               <Node name="Entities" expanded="True" />
-              <Node name="RepositoryInterfaces" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="MovieShopMVC" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Movies" expanded="True">
-                  <Node name="Details.cshtml" selected="True" />
+                <Node name="Cast" expanded="True">
+                  <Node name="CastDetail.cshtml" selected="True" />
                 </Node>
-                <Node name="Shared" expanded="True" />
+                <Node name="Movies" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="styles" expanded="True" />

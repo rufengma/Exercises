@@ -37,7 +37,7 @@ namespace Infrastructure.Data
             //This is an action, action does not return anything.
             // output is void. input is entityTypeBuilder<movie>, output is void
             modelBuilder.Entity<Trailer>(ConfigureTrailer);
-            modelBuilder.Entity<Genre>(ConfigureGenre);
+            //modelBuilder.Entity<Genre>(ConfigureGenre);
             modelBuilder.Entity<Movie>().HasMany(m => m.Genres).WithMany(g => g.Movies).UsingEntity<Dictionary<string, object>>
                 ("MovieGenre",
                 m => m.HasOne<Genre>().WithMany().HasForeignKey("GenreId"),
@@ -51,8 +51,9 @@ namespace Infrastructure.Data
 
             modelBuilder.Entity<MovieCast>(ConfigureMovieCast);
             modelBuilder.Entity<MovieCrew>(ConfigureMovieCrew);
-            modelBuilder.Entity<Cast>(ConfigureCast);
+            //modelBuilder.Entity<Genre>(ConfigureGenre);
             modelBuilder.Entity<Crew>(ConfigureCrew);
+            modelBuilder.Entity<Cast>(ConfigureCast);
             modelBuilder.Entity<Favorite>(ConfigureFavorite);
             modelBuilder.Entity<Purchase>(ConfigurePurchase);
             modelBuilder.Entity<Review>(ConfigureReview);
@@ -139,16 +140,11 @@ namespace Infrastructure.Data
         private void ConfigureCast(EntityTypeBuilder<Cast> builder)
         {
             builder.ToTable("Cast");
-            builder.HasKey("Id");
-            builder.Property(c => c.Gender).HasMaxLength(128);
-            builder.Property(c => c.ProfilePath).HasMaxLength(2084);
-        }
-
-        private void ConfigureGenre(EntityTypeBuilder<Genre> builder)
-        {
-            builder.ToTable("Genre");
-            builder.HasKey("Id");
-            builder.Property(g => g.Name).HasMaxLength(64);
+            builder.HasKey(t => t.Id);
+            builder.Property(t => t.Name).HasMaxLength(128);
+            builder.Property(t => t.Gender).HasMaxLength(4096);
+            builder.Property(t => t.TmdbUrl).HasMaxLength(4096);
+            builder.Property(t => t.ProfilePath).HasMaxLength(2084);
         }
 
         private void ConfigureTrailer(EntityTypeBuilder<Trailer> builder)

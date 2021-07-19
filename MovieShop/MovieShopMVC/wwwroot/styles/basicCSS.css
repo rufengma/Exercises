@@ -9,10 +9,13 @@
 .cast-small-img
 {
     width: 20px;
-    height: auto;
     
 }
 .third-column {
     margin-top:50px;
     margin-left:50px;
+}
+
+.movie-small-img {
+    width: 50px;
 }
