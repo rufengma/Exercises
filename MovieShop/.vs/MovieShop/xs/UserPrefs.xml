@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Shared/_GenreView.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Account/Login.cshtml">
     <Files>
-      <File FileName="MovieShopMVC/Views/Shared/_GenreView.cshtml" Line="11" Column="10" />
-      <File FileName="Infrastructure/Services/MovieService.cs" Line="79" Column="14" />
-      <File FileName="MovieShopMVC/Controllers/GenreController.cs" Line="19" Column="55" />
-      <File FileName="MovieShopMVC/Startup.cs" Line="1" Column="1" />
-      <File FileName="MovieShopMVC/Views/Home/Index.cshtml" Line="18" Column="15" />
-      <File FileName="MovieShopMVC/Controllers/HomeController.cs" Line="33" Column="43" />
-      <File FileName="MovieShopMVC/Views/Genre/genre.cshtml" Line="15" Column="57" />
+      <File FileName="MovieShopMVC/Controllers/AccountController.cs" Line="36" Column="46" />
+      <File FileName="MovieShopMVC/Startup.cs" Line="39" Column="67" />
+      <File FileName="Infrastructure/Services/UserService.cs" Line="20" Column="31" />
+      <File FileName="MovieShopMVC/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="MovieShopMVC/Views/Account/Login.cshtml" Line="28" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,21 +13,20 @@
           <Node name="MovieShop" expanded="True">
             <Node name="ApplicationCore" expanded="True">
               <Node name="Entities" expanded="True" />
+              <Node name="Exceptions" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="RepositoryInterfaces" expanded="True" />
               <Node name="ServiceInterfaces" expanded="True" />
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
               <Node name="Repositories" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
             <Node name="MovieShopMVC" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Genre" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_GenreView.cshtml" selected="True" />
+                <Node name="Account" expanded="True">
+                  <Node name="Login.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
