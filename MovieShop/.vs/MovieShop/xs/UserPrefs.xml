@@ -1,37 +1,34 @@
 ﻿<Properties StartupConfiguration="{A45E9BD6-D3E0-4F82-B709-7A3B95D651D5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Account/Login.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopMVC/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="MovieShopMVC/Controllers/AccountController.cs" Line="36" Column="46" />
-      <File FileName="MovieShopMVC/Startup.cs" Line="39" Column="67" />
-      <File FileName="Infrastructure/Services/UserService.cs" Line="20" Column="31" />
-      <File FileName="MovieShopMVC/Views/Account/Register.cshtml" Line="1" Column="1" />
-      <File FileName="MovieShopMVC/Views/Account/Login.cshtml" Line="28" Column="16" />
+      <File FileName="MovieShopMVC/Controllers/AccountController.cs" Line="70" Column="34" IsPinned="True" />
+      <File FileName="MovieShopMVC/Startup.cs" Line="73" Column="37" />
+      <File FileName="Infrastructure/Services/UserService.cs" Line="81" Column="14" />
+      <File FileName="MovieShopMVC/Views/Account/Register.cshtml" Line="44" Column="1" />
+      <File FileName="MovieShopMVC/Views/Account/Login.cshtml" Line="31" Column="1" />
+      <File FileName="MovieShopMVC/Views/Shared/_LoginPartial.cshtml" Line="22" Column="14" />
+      <File FileName="MovieShopMVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
             <Node name="ApplicationCore" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Exceptions" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="RepositoryInterfaces" expanded="True" />
               <Node name="ServiceInterfaces" expanded="True" />
             </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
             <Node name="MovieShopMVC" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True">
-                  <Node name="Login.cshtml" selected="True" />
+                <Node name="Account" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
