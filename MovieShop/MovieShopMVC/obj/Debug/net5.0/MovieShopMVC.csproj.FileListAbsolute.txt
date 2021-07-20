@@ -82,3 +82,4 @@
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Account/Login.cshtml.g.cs
+/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/Debug/net5.0/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
