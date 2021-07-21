@@ -1,6 +1,19 @@
-﻿
+﻿@using ApplicationCore.ServiceInterfaces
+@inject ICurrentUser currentUser
+
+
 @if (User.Identity.IsAuthenticated)
 {
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            PROFILE
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item">@currentUser.Email</a>
+            <a class="dropdown-item">@currentUser.FullName</a>
+            <a class="dropdown-item" asp-controller="Account" asp-action="Logout">LOGOUT</a>
+        </div>
+    </div>
 }
 else
 {

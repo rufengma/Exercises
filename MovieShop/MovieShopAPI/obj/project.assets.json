@@ -1589,7 +1589,7 @@
       },
       "Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.1",
+        "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "ApplicationCore": "1.0.0",
           "Microsoft.AspNetCore.Cryptography.KeyDerivation": "5.0.8",
@@ -1602,7 +1602,10 @@
         },
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },

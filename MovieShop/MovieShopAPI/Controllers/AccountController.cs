@@ -21,6 +21,7 @@ namespace MovieShopAPI.Controllers
         {
             _userService = userService;
         }
+        //==> localhost:55043/api/Account/api/Account
         [HttpPost]
         public async Task<IActionResult> RegisterUser([FromBody] UserRegisterRequestModel model)
         {
@@ -30,16 +31,24 @@ namespace MovieShopAPI.Controllers
 
             return Ok(createdUser);
         }
+        //==> localhost:55043/api/Account/api/Account/{id}
         [HttpGet]
         [Route("{id:int}", Name = "GetUser")]
-        public async Task<IActionResult> GetUserById(int id) {
+        public async Task<IActionResult> GetUserById(int id)
+        {
             var user = await _userService.GetUserById(id);
-            if (user == null) {
+            if (user == null)
+            {
                 return NotFound($"user does not exists for {id}");
             }
             return Ok(user);
         }
+        //==> localhost:55043/api/Account/api/Account/login
+        //[HttpPost]
+        //public async Task<IActionResult> login([FromBody] UserLoginRequestModel model)
+        //{
+        //    var loginRequest = await _userService.Login(model)
 
-
+        //}
     }
 }
