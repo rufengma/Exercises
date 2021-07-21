@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/rufengma/.dotnet/store/|arch|/|tfm|",
+      "/Users/rufengma/.nuget/packages"
+    ]
+  }
+}
