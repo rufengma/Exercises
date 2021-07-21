@@ -42,6 +42,7 @@ namespace MovieShopMVC
             services.AddDbContext<MovieShopDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("MovieShopDbConnection"));
             });
+            services.AddHttpContextAccessor();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>
                 {
