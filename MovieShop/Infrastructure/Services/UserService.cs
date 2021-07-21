@@ -7,7 +7,6 @@ using ApplicationCore.Exceptions;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
 using System.Security.Cryptography;
 using ApplicationCore.Entities;
-
 namespace Infrastructure.Services
 {
     public class UserService : IUserService
@@ -15,6 +14,20 @@ namespace Infrastructure.Services
         private readonly IUserRepository _userRepository;
         public UserService(IUserRepository userRepository) {
             _userRepository = userRepository;
+        }
+
+        public async Task<UserResponseModel> GetUserById(int id)
+        {
+            var user = await _userRepository.GetByIdAsync(id);
+            var userResponseModel = new UserResponseModel
+            {
+                Id = user.Id,
+                Email = user.Email,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                DateOfBirth = user.DateOfBirth
+            };
+            return userResponseModel;
         }
 
         public async Task<UserLoginResponseModel> Login(string email, string password)
