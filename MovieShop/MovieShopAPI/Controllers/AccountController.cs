@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using ApplicationCore.ServiceInterfaces;
 using Microsoft.AspNetCore.Mvc;
 using ApplicationCore.Models;
+using System.Security.Claims;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -44,11 +46,18 @@ namespace MovieShopAPI.Controllers
             return Ok(user);
         }
         //==> localhost:55043/api/Account/api/Account/login
-        //[HttpPost]
-        //public async Task<IActionResult> login([FromBody] UserLoginRequestModel model)
-        //{
-        //    var loginRequest = await _userService.Login(model)
+        [HttpPost]
+        [Route("login")]
+        public async Task<IActionResult> login([FromBody] UserLoginRequestModel model)
+        {
+            var user = await _userService.Login(model.Email, model.Password);
+            if (user == null)
+            {
+                return NotFound("user not exist");
+            }
+            return Ok();
+            //because this login request model returns NULL.
+        }
 
-        //}
     }
 }

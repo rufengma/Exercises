@@ -47,7 +47,7 @@ namespace Infrastructure.Services
                     Name = cast.Cast.Name,
                     Character = cast.Character,
                     ProfilePath = cast.Cast.ProfilePath
-                });   
+                });
             }
             movieDetails.Genres = new List<GenreModel>();
             foreach (var genre in movie.Genres)
@@ -79,10 +79,45 @@ namespace Infrastructure.Services
             }
             return movieCards;
         }
+        public async Task<List<MovieCardResponseModel>> GetTopRatedMovies()
+        {
+            var movies = await _movieRepository.GetTop20RatingMovies();
+            var movieCards = new List<MovieCardResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieCards.Add(new MovieCardResponseModel
+                {
+                    Id = movie.Id,
+                    Budget = movie.Budget.GetValueOrDefault(),
+                    Title = movie.Title,
+                    PosterUrl = movie.PosterUrl
+                });
+            }
+            return movieCards;
+        }
+        public async Task<List<MovieCardResponseModel>> GetMoviesInGenre(int GenreId)
+        {
+            var movies = await _movieRepository.Get20MoviesInGenre(GenreId);
+            var movieCards = new List<MovieCardResponseModel>();
+            foreach (var movie in movies)
+            {
+                movieCards.Add(new MovieCardResponseModel
+                {
+                    Id = movie.Id,
+                    Budget = movie.Budget.GetValueOrDefault(),
+                    Title = movie.Title,
+                    PosterUrl = movie.PosterUrl
+                });
+            }
+            return movieCards;
+        }
+        public async Task<List<string>> GetMovieReview(int id) {
+            var reviewTexts = await _movieRepository.GetMovieReview(id);
+            return reviewTexts;
+        }
     }
+
 }
-
-
 // method(int x, IMovieService service)
 //method (4, new MovieService)// second place can pass in an instance of MovieService.
 

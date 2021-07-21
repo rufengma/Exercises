@@ -8,6 +8,8 @@ namespace ApplicationCore.RepositoryInterfaces
     {
         Task<List<Movie>> GetHighest30GrossingMovies();
         // return time of this one should be a list of movies(Entities)
-       
+        Task<List<Movie>> GetTop20RatingMovies();
+        Task<List<Movie>> Get20MoviesInGenre(int GenreId);
+        Task<List<string>> GetMovieReview(int id);
     }
 }

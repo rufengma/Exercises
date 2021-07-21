@@ -8,5 +8,6 @@ namespace ApplicationCore.ServiceInterfaces
         Task<UserRegisterResponseModel> RegisterUser(UserRegisterRequestModel requestModel);
         Task<UserLoginResponseModel> Login(string email, string password);
         Task<UserResponseModel> GetUserById(int id);
+        
     }
 }

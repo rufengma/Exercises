@@ -53,29 +53,6 @@ namespace Infrastructure.Services
             return null;
 
         }
-        public async Task<UserLoginResponseModel> LoginAPI(UserLoginRequestModel model)
-        {
-            var dbUser = await _userRepository.GetUserByEmail(model.Email);
-            if (dbUser == null)
-            {
-                throw new NotFoundException("email does not exists, please register first");
-            }
-            var hashedPassword = HashPassword(model.Password, dbUser.Salt);
-            if (hashedPassword == dbUser.HashedPassword)
-            {
-                var userLoginResponse = new UserLoginResponseModel
-                {
-                    Id = dbUser.Id,
-                    Email = dbUser.Email,
-                    FirstName = dbUser.FirstName,
-                    DateOfBirth = dbUser.DateOfBirth,
-                    LastName = dbUser.LastName
-                };
-                return userLoginResponse;
-            }
-            return null;
-
-        }
 
 
             public async Task<UserRegisterResponseModel> RegisterUser(UserRegisterRequestModel requestModel)
