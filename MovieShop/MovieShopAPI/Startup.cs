@@ -65,6 +65,11 @@ namespace MovieShopAPI
 
             }
 
+            app.UseCors(builder =>
+            {
+                builder.WithOrigins(Configuration.GetValue<string>("movieShopSPAUrl")).AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+            });
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
