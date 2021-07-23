@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
+  "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopAPI/MovieShopAPI.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15616,83 +15616,7 @@
     ],
     "CSharpLanguageVersion": 900
   },
-  "RootNamespace": "MovieShopMVC",
-  "Documents": [
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Genre/genre.cshtml",
-      "TargetPath": "Views\\Genre\\genre.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Cast/CastDetail.cshtml",
-      "TargetPath": "Views\\Cast\\CastDetail.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Movies/Details.cshtml",
-      "TargetPath": "Views\\Movies\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Account/Login.cshtml",
-      "TargetPath": "Views\\Account\\Login.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/_GenreView.cshtml",
-      "TargetPath": "Views\\Shared\\_GenreView.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Account/Register.cshtml",
-      "TargetPath": "Views\\Account\\Register.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/_MovieCard.cshtml",
-      "TargetPath": "Views\\Shared\\_MovieCard.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Home/Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "RootNamespace": "MovieShopAPI",
+  "Documents": [],
   "SerializationFormat": "0.2"
 }
