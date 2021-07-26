@@ -1,0 +1,21 @@
+.bg-color-1 {
+    background-color: #06152a;
+}
+
+.detail-poster {
+    width:200px;
+    height:auto;
+}
+.cast-small-img
+{
+    width: 20px;
+    
+}
+.third-column {
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.movie-small-img {
+    width: 50px;
+}
