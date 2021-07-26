@@ -40,6 +40,7 @@ namespace MovieShopMVC
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICurrentUser, CurrentUser>();
+
             services.AddDbContext<MovieShopDbContext>(options => {
                 options.UseSqlServer(Configuration.GetConnectionString("MovieShopDbConnection"));
             });

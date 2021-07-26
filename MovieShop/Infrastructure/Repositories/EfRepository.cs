@@ -18,8 +18,6 @@ namespace Infrastructure.Repositories
         {
             _dbContext = dbContext;
         }
-
-
         //GetByIdAsync
         public virtual async Task<T> GetByIdAsync(int id)
         {
@@ -69,7 +67,6 @@ namespace Infrastructure.Repositories
 
             return entity;
         }
-
         public Task<T> DeleteAsync(T entity)
         {
             throw new NotImplementedException();

@@ -5908,11 +5908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
+      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
       "projectName": "MovieShopMVC",
-      "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
+      "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
       "packagesPath": "/Users/rufengma/.nuget/packages/",
-      "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/obj/",
+      "outputPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/MovieShopMVC/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rufengma/.config/NuGet/NuGet.Config"
@@ -5927,11 +5927,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj": {
-              "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj"
+            "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj": {
+              "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj"
             },
-            "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj"
+            "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj"
             }
           }
         }

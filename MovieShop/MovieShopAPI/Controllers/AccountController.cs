@@ -33,6 +33,7 @@ namespace MovieShopAPI.Controllers
 
             return Ok(createdUser);
         }
+
         //==> localhost:55043/api/Account/api/Account/{id}
         [HttpGet]
         [Route("{id:int}", Name = "GetUser")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj": {}
+    "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj": {
+    "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj",
+        "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj",
+        "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj",
         "packagesPath": "/Users/rufengma/.nuget/packages/",
-        "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/",
+        "outputPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rufengma/.config/NuGet/NuGet.Config"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj": {
+    "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/Infrastructure.csproj",
+        "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/Infrastructure.csproj",
         "packagesPath": "/Users/rufengma/.nuget/packages/",
-        "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/Infrastructure/obj/",
+        "outputPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rufengma/.config/NuGet/NuGet.Config"
@@ -84,8 +84,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj": {
-                "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj"
+              "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj": {
+                "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj"
               }
             }
           }

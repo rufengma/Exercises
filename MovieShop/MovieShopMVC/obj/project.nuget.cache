@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CGujKPC+zB34znZozng8KDjKSbKlAlqrr+m/da2W24bCONNAuEJI4se+XL2axLJNj9g9e5VI799myhCHZYNghA==",
+  "dgSpecHash": "4waENUYf4P/GIfc5EiGVukeFIUYtsbm1b/TDQ3YiDMlAjbGScWKCK2+idp0btcca5VE1EMew2Yu+xyMPSmtS9A==",
   "success": true,
-  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
+  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/MovieShopMVC/MovieShopMVC.csproj",
   "expectedPackageFiles": [
     "/Users/rufengma/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/rufengma/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.8/microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
