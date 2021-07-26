@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rItrLE54kgOOzvo+DoJ6N5bFLMIh8+Np6cITEQI7yTVOLWTjwzS1qtDvSlbDdfe8mOu/S5l8iV9FG4wTQJAe0g==",
+  "dgSpecHash": "mteMDPxEkP0GzPMM6cTbyK9/bKBi9Y4otPZ4TM0jhglnJgZoUXx/RrCLYIZZ24Ev0i1Qaw0k1Zg90GjKVT0pTQ==",
   "success": true,
-  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/MovieShopAPI/MovieShopAPI.csproj",
+  "projectFilePath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/MovieShopAPI/MovieShopAPI.csproj",
   "expectedPackageFiles": [
     "/Users/rufengma/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.8/microsoft.aspnetcore.cryptography.internal.5.0.8.nupkg.sha512",
     "/Users/rufengma/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.8/microsoft.aspnetcore.cryptography.keyderivation.5.0.8.nupkg.sha512",

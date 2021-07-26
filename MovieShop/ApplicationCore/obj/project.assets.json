@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj",
+      "projectUniqueName": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj",
       "projectName": "ApplicationCore",
-      "projectPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/ApplicationCore.csproj",
+      "projectPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/ApplicationCore.csproj",
       "packagesPath": "/Users/rufengma/.nuget/packages/",
-      "outputPath": "/Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/",
+      "outputPath": "/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rufengma/.config/NuGet/NuGet.Config"

@@ -7,3 +7,12 @@
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.dll
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.pdb
 /Users/rufengma/Documents/Job/Antra/FinalProject/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.csproj.AssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/bin/Debug/netstandard2.1/ApplicationCore.deps.json
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/bin/Debug/netstandard2.1/ApplicationCore.dll
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/bin/Debug/netstandard2.1/ApplicationCore.pdb
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.csproj.AssemblyReference.cache
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.AssemblyInfoInputs.cache
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.AssemblyInfo.cs
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.csproj.CoreCompileInputs.cache
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.dll
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.pdb
