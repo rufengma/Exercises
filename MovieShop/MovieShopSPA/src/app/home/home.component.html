@@ -1,0 +1,12 @@
+<div class="rounded">
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="col-6" *ngFor="let movie of movies">
+                <app-movie-card [moviecard]='movie'>
+                </app-movie-card>
+            </div>
+            <!-- send data from parent component to child component use @input decorator -->
+            <!-- send from child to children use @output decorator -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,80 @@
+<!-- <div>
+    <img src="{{movie.posterUrl}}">
+</div> -->
+
+<div class="container">
+
+
+    <div class="row bg-color-1 " >
+        <div class="col-3">
+        <img class="detail-poster" src="{{movie.posterUrl}}">
+        </div>
+        <div class="col-6">
+            <h3 style="color:white">
+                {{movie.title}}
+            </h3>
+            <div>
+                <span [ngClass]="{'badge rounded-pill bg-success': movie.rating>8, 'badge badge-pill badge-warning': movie.rating<8}">
+                    {{movie.rating}}
+                </span>
+                <br />
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="third-column">
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    <i class="fas fa-pen-square size:2x">REVIEW</i>
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    <i class="far fa-play-circle size:2x">TRAILER</i>
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    BUY 9.90
+                </a>
+                <p></p>
+                <a href="#" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">
+                    WATCH MOVIE
+                </a>
+                <p></p>
+            </div>
+        </div>
+
+    </div>
+<!--     
+    <div class="row">
+        <div class="col-4">
+            <h5>MOVIE FACTS</h5>
+            <br />
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="fas fa-calendar-alt size:2x">Release Date: </i><span class="badge badge-dark"></span></li>
+                <li class="list-group-item"><i class="fas fa-hourglass-end size:2x">Run Time:</i><span class="badge badge-dark">@Model.RunTime m</span></li>
+                <li class="list-group-item"><i class="fas fa-money-bill size:2x">Box Office</i><span class="badge badge-dark dollars">$ @Model.Revenue</span></li>
+                <li class="list-group-item"><i class="fas fa-dollar-sign size:2x">Budget</i><span class="badge badge-dark dollars">$ @Model.Budget</span></li>
+            </ul>
+        </div>
+        <div class="col-8">
+            <h5>CAST</h5>
+            <table class="table">
+                <tbody>
+                    @foreach (var cast in Model.Casts)
+                    {
+                        <tr>
+                            <td>
+                                <a asp-controller="Cast" asp-action="CastDetail" asp-route-id="@cast.Id">
+                                    <img src="@cast.ProfilePath"
+                                         class="cast-small-img rounded-circle"
+                                         alt="@cast.Name">
+                                </a>
+
+                            </td>
+                            <td> @cast.Name </td>
+                            <td> @cast.Character</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div> -->
+</div>
