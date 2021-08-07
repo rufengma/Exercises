@@ -23,6 +23,7 @@ import { NotFoundComponent } from './shared/components/not-found/not-found.compo
 import { NotAuthorizedComponent } from './shared/components/not-authorized/not-authorized.component';
 
 import {HttpClientModule} from'@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,9 @@ import {HttpClientModule} from'@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

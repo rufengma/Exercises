@@ -47,10 +47,7 @@ namespace Infrastructure.Services
         public bool IsAdmin => throw new NotImplementedException();
 
         public bool IsSuperAdmin => throw new NotImplementedException();
-
-
         //public async Task<Purchase> PurchaseMovie(int id) {
-
         //    var purchase = new Purchase
         //    {
         //        MovieId = id,
@@ -60,6 +57,5 @@ namespace Infrastructure.Services
 
         //    return createPurchase;
         //}
-
     }
 }
