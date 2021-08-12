@@ -16,3 +16,4 @@
 /Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.csproj.CoreCompileInputs.cache
 /Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.dll
 /Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.pdb
+/Users/rufengma/Documents/Job/Antra/MovieShop/MovieShop/ApplicationCore/obj/Debug/netstandard2.1/ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
