@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieShopAPI", "MovieShopAPI\MovieShopAPI.csproj", "{BFFA106B-ACC1-44C6-841C-389F97BBCB13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{A60A7F6B-D905-47C1-BECF-B909C9223667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BFFA106B-ACC1-44C6-841C-389F97BBCB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFFA106B-ACC1-44C6-841C-389F97BBCB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFFA106B-ACC1-44C6-841C-389F97BBCB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A60A7F6B-D905-47C1-BECF-B909C9223667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A60A7F6B-D905-47C1-BECF-B909C9223667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A60A7F6B-D905-47C1-BECF-B909C9223667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A60A7F6B-D905-47C1-BECF-B909C9223667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

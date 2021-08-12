@@ -1,25 +1,26 @@
-﻿<Properties StartupConfiguration="{BFFA106B-ACC1-44C6-841C-389F97BBCB13}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieShopAPI/Startup.cs">
+﻿<Properties StartupConfiguration="{8C1B5691-F3BE-4533-964E-DE3EF30D02AA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTests/MovieServiceUnitTest.cs">
     <Files>
-      <File FileName="MovieShopAPI/Controllers/AccountController.cs" Line="78" Column="10" />
-      <File FileName="MovieShopAPI/appsettings.json" Line="13" Column="5" />
-      <File FileName="MovieShopAPI/Startup.cs" Line="1" Column="1" />
+      <File FileName="UnitTests/MovieServiceUnitTest.cs" Line="43" Column="50" />
+      <File FileName="AzureFunction/AzureFunction.cs" Line="11" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieShop" expanded="True">
-            <Node name="ApplicationCore" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="ServiceInterfaces" expanded="True" />
-            </Node>
-            <Node name="Infrastructure" expanded="True">
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="MovieShopAPI" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+            <Node name="AzureFunction" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MovieShop" expanded="True">
+            <Node name="UnitTests" expanded="True">
+              <Node name="MovieServiceUnitTest" expanded="True">
+                <Node name="UnitTest1" expanded="True">
+                  <Node name="Test_List_Of_Highest_Grossing_Movies_From_Fake_Data" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
@@ -30,6 +31,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.MovieShopAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.AzureFunction PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
